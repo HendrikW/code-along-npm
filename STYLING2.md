@@ -63,3 +63,15 @@ add a `description` class:
     <h2>npm Enterprise</h2>
 ...            
 ```
+
+move the descriptions relative to page size (this time, no flexbox): 
+```css
+.description {
+    margin-left: 15%;
+    max-width: 500px;    
+}
+
+#npm-enterprise .description {
+    padding-top: 40px;
+}
+```
