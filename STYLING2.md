@@ -49,3 +49,17 @@ section#functionality a {
     flex-wrap: wrap;
 }
 ```
+
+add a `description` class:
+```html
+...
+<div class="description">
+    <h1>Build amazing things</h1>
+...            
+```
+```html
+...
+<div class="description">
+    <h2>npm Enterprise</h2>
+...            
+```
