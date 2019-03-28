@@ -23,3 +23,29 @@ section#npm-orgs img {
     }
 }
 ```
+
+position the last section:
+```css
+section#functionality {
+    color: rgb(83, 88, 98);
+    text-align: center;
+    padding: 30px 80px;
+}
+
+section#functionality p {
+    color: rgb(135, 145, 156);
+}
+
+section#functionality a {
+    color: rgb(208, 74, 73);
+}
+
+#functionality-container {
+    margin-top: 60px;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+```
