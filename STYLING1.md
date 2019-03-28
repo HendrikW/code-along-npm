@@ -143,3 +143,21 @@ section#functionality a {
     text-align: center;
 }
 ```
+
+add some general styles:
+```css
+/* HEADINGS */
+h1 {
+    font-size: 30px;
+}
+
+h6 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/* BUTTONS */
+button {
+    cursor: pointer;
+}
+```
