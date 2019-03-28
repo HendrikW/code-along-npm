@@ -40,6 +40,64 @@ Give an ID to the `div` around the logo:
 </div>
 ```
 
+add styles for the header: 
+```css
+/* HEADER */
+#logo-bar {
+    height: 40px;
+    padding: 10px 10px;
+}
+
+#logo-bar img {
+    height: 30px;
+}
+
+header {
+    background-image: url('./images/city-scape.svg');
+    color: white;
+    min-height: 300px;
+}
+
+header button {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+}
+```
+
+Add styles for the first two sections: 
+```css
+/* SECTIONS */
+section#npm-orgs img {
+    width: 500px;
+}
+
+section#npm-orgs {
+    color: white;
+    background-color: rgb(39, 53, 71);
+    min-height: 300px;
+}
+
+
+section#npm-orgs button {
+    background-color: rgb(203, 56, 55);
+    color: white;
+    padding: 10px;
+}
+
+section#npm-enterprise {
+    color: white;
+    background-image: url("images/forklift.svg");
+    min-height: 300px;
+}
+
+section#npm-enterprise button {
+    background-color: rgb(49, 68, 88);
+    color: white;
+    padding: 10px;
+}
+```
+
 Give IDs and classes to the `div`s in the functionality-section: 
 ```html
 <div id="functionality-container">
@@ -64,4 +122,24 @@ Give IDs and classes to the `div`s in the functionality-section:
             permissions in a way that matches your company structure.</p>
     </div>
 </div>
+```
+
+add styles for the functionality section:
+```css
+section#functionality {
+    color: rgb(83, 88, 98);
+}
+
+section#functionality p {
+    color: rgb(135, 145, 156);
+}
+
+section#functionality a {
+    color: rgb(208, 74, 73);
+}
+
+.functionality-box {
+    max-width: 300px;
+    text-align: center;
+}
 ```
