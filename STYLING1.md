@@ -40,7 +40,7 @@ Give an ID to the `div` around the logo:
 </div>
 ```
 
-Give IDs to the `div`s in the functionality-section: 
+Give IDs and classes to the `div`s in the functionality-section: 
 ```html
 <div id="functionality-container">
     <div class="functionality-box">
